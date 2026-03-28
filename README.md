@@ -1,6 +1,8 @@
 # Wheel of Fortune PS2 Puzzle Maker
 This command-line python program lets you create custom puzzles for the PS2 version of Wheel of Fortune.
 
+<img width="1440" height="1080" alt="readme1" src="https://github.com/user-attachments/assets/47e6984f-c3cc-43a8-b981-024836da4f57" />
+
 ## Usage
 1. Make a custom puzzle file (see below).
 2. Extract the contents of the Wheel of Fortune PS2 iso using 7zip (or your preferred tool).
@@ -17,7 +19,7 @@ To use the puzzle maker, you'll need to provide a custom puzzle file. This is a 
 ### Puzzles
 Each line of text is a unique puzzle. You can manually separate the puzzle into rows by typing '|' between the rows, or let the program do this for you. Keep in mind that the puzzle has to fit on the Wheel of Fortune board, which can hold 12 characters on the first and fourth rows, and 14 characters on the second and third rows. Puzzles using one or two rows start on the second row, so you only need to worry about the rows that hold 12 characters if the puzzle uses 3 or 4 rows.
 
-Only certain characters are supported by the game. These include A-Z, as well as the special characters `#&-'.?`. Numbers are not supported, nor are any other special characters. Capitalization does not matter (the program handles it).
+Only certain characters are supported by the game. These include `A-Z`, as well as the special characters `#&-'.?`. Numbers are not supported, nor are any other special characters. Capitalization does not matter.
 
 Here's an example of some valid puzzles:
 ```
@@ -87,6 +89,8 @@ The multiple-choice question is required for any puzzles in these categories. To
 ```
 PICK THE|RIGHT ANSWER~WRONG/ALSO WRONG/*CORRECT
 ```
+<img width="1440" height="1080" alt="readme2" src="https://github.com/user-attachments/assets/a89f4fb8-64de-433c-a094-f9787fb9e856" />
+
 
 Additionally, there are several categories that aren't used by any puzzles in the game normally, but are still accessible and can be used:
 ```
@@ -124,4 +128,4 @@ Sometimes the game will generate a blank puzzle with the category 'PHRASE'. When
 - the game tries to avoid picking a puzzle with the same category as the previous round's puzzle
 - the game likely marks enough puzzles as recently played (so that the same puzzle doesn't get repeated too quickly) that it runs out of "fresh" puzzles to choose from
 
-Using a custom puzzle file with multiple categories and a large number of puzzles will mitigate this issue. You can also try deleting the save file if the issue happens repeatedly.
+Using a custom puzzle file with multiple categories and a large number of puzzles will mitigate this issue. You can copy and paste the same puzzles multiple times in the custom puzzles file, although you then run the risk of getting the same puzzle multiple times in the game. You can also try deleting the game's save file if the issue happens repeatedly.
