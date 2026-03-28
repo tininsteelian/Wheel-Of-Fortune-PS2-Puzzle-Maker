@@ -137,4 +137,4 @@ Sometimes the game will generate a blank puzzle with the category 'PHRASE'. When
 - the game tries to avoid picking a puzzle with the same category as the previous round's puzzle
 - the game likely marks enough puzzles as recently played (so that the same puzzle doesn't get repeated too quickly) that it runs out of "fresh" puzzles to choose from
 
-Using a custom puzzle file with multiple categories and a large number of puzzles will mitigate this issue. You can copy and paste the same puzzles multiple times in the custom puzzles file, although you then run the risk of getting the same puzzle multiple times in the game. You can also try deleting the game's save file if the issue happens repeatedly.
+Using a custom puzzle file with multiple categories and a large number of puzzles will mitigate this issue. You can copy and paste the same puzzles multiple times in the custom puzzles file, although you then run the risk of getting the same puzzle multiple times in a game. You can also try deleting the game's save file if the issue happens repeatedly.
