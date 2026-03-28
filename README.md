@@ -13,7 +13,7 @@ You will need the following:
 ## Usage
 1. Make a custom puzzle file (see below).
 2. Extract the contents of the Wheel of Fortune PS2 iso using 7zip (or your preferred tool).
-3. Run the program in terminal with the following parameters:
+3. Run the program in Command Prompt/Terminal with the following parameters:
 ```
 WheelOfFortunePS2PuzzleMaker.py [input file] [output folder]
 ```
