@@ -3,6 +3,13 @@ This command-line python program lets you create custom puzzles for the PS2 vers
 
 <img width="1440" height="1080" alt="readme1" src="https://github.com/user-attachments/assets/47e6984f-c3cc-43a8-b981-024836da4f57" />
 
+## Prerequisites
+You will need the following:
+- a Wheel of Fortune PS2 iso
+- a program to extract the iso, such as 7zip
+- a program to create a new iso, such as ImgBurn
+- Python 3.12
+  
 ## Usage
 1. Make a custom puzzle file (see below).
 2. Extract the contents of the Wheel of Fortune PS2 iso using 7zip (or your preferred tool).
@@ -19,7 +26,7 @@ To use the puzzle maker, you'll need to provide a custom puzzle file. This is a 
 ### Puzzles
 Each line of text is a unique puzzle. You can manually separate the puzzle into rows by typing '|' between the rows, or let the program do this for you. Keep in mind that the puzzle has to fit on the Wheel of Fortune board, which can hold 12 characters on the first and fourth rows, and 14 characters on the second and third rows. Puzzles using one or two rows start on the second row, so you only need to worry about the rows that hold 12 characters if the puzzle uses 3 or 4 rows.
 
-Only certain characters are supported by the game. These include `A-Z`, as well as the special characters `#&-'.?`. Numbers are not supported, nor are any other special characters. Capitalization does not matter.
+Only certain characters are supported by the game. These include `A-Z`, as well as the special characters `#&-'.?`. Numbers are not supported, nor are any other special characters. Capitalization does not matter. If there are any errors in the formatting of the custom puzzles file, the program will tell you what and where they are, so that you can fix them easily.
 
 Here's an example of some valid puzzles:
 ```
